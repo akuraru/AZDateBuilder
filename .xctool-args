@@ -1,0 +1,7 @@
+[
+  "-workspace", "AZDateBuilder.xcworkspace",
+  "-scheme", "LogicTests",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]

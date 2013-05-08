@@ -1,0 +1,10 @@
+PODS:
+  - OCHamcrest (2.0.0)
+
+DEPENDENCIES:
+  - OCHamcrest
+
+SPEC CHECKSUMS:
+  OCHamcrest: 6145ed6c91cbfa1fa3c4ecb7e7210ad2e832e62d
+
+COCOAPODS: 0.19.1
