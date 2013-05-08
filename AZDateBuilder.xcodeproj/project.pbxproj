@@ -12,7 +12,6 @@
 		732F3B25173AA72400026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B27173AA72400026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
 		732F3B29173AA72400026B5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B28173AA72400026B5E /* CoreGraphics.framework */; };
-		732F3B2F173AA72400026B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B2D173AA72400026B5E /* InfoPlist.strings */; };
 		732F3B31173AA72400026B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B30173AA72400026B5E /* main.m */; };
 		732F3B35173AA72400026B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B34173AA72400026B5E /* AppDelegate.m */; };
 		732F3B37173AA72400026B5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B36173AA72400026B5E /* Default.png */; };
@@ -21,11 +20,9 @@
 		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B50173AA73B00026B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B4E173AA73B00026B5E /* InfoPlist.strings */; };
 		732F3B5E173AA74A00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B5F173AA74A00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B60173AA74A00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B66173AA74A00026B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B64173AA74A00026B5E /* InfoPlist.strings */; };
 		732F3B71173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B73173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
@@ -309,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B2F173AA72400026B5E /* InfoPlist.strings in Resources */,
 				732F3B37173AA72400026B5E /* Default.png in Resources */,
 				732F3B39173AA72400026B5E /* Default@2x.png in Resources */,
 				732F3B3B173AA72400026B5E /* Default-568h@2x.png in Resources */,
@@ -320,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B50173AA73B00026B5E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B66173AA74A00026B5E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
