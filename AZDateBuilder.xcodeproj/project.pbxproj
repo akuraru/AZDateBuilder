@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62B53AF8FCC34164A8710600 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1222BE749A489F84C49B3F /* libPods.a */; };
-		732F3B25173AA72400026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
-		732F3B27173AA72400026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B29173AA72400026B5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B28173AA72400026B5E /* CoreGraphics.framework */; };
-		732F3B31173AA72400026B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B30173AA72400026B5E /* main.m */; };
-		732F3B35173AA72400026B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B34173AA72400026B5E /* AppDelegate.m */; };
-		732F3B37173AA72400026B5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B36173AA72400026B5E /* Default.png */; };
-		732F3B39173AA72400026B5E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B38173AA72400026B5E /* Default@2x.png */; };
-		732F3B3B173AA72400026B5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B3A173AA72400026B5E /* Default-568h@2x.png */; };
 		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B71173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */; };
+		7353DB5F173B28CB00C7B091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
+		7353DB60173B28CB00C7B091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
+		7353DB61173B28CB00C7B091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B28173AA72400026B5E /* CoreGraphics.framework */; };
+		7353DB77173B28D600C7B091 /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
+		7353DB78173B28D900C7B091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B34173AA72400026B5E /* AppDelegate.m */; };
+		7353DB79173B28DF00C7B091 /* AZDateBuilder-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B2C173AA72400026B5E /* AZDateBuilder-Info.plist */; };
 		DB546CAE40F147CEAB8B905C /* libPods-LogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		536137C745BE4FCB90291F97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		732F3B21173AA72400026B5E /* AZDateBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZDateBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F3B24173AA72400026B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		732F3B26173AA72400026B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		732F3B28173AA72400026B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,23 +43,13 @@
 		732F3B6F173AA79400026B5E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
 		732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZDateBuilderTest.m; sourceTree = "<group>"; };
+		7353DB5E173B28CB00C7B091 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1222BE749A489F84C49B3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.xcconfig"; path = "Pods/Pods-LogicTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		732F3B1E173AA72400026B5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732F3B25173AA72400026B5E /* UIKit.framework in Frameworks */,
-				732F3B27173AA72400026B5E /* Foundation.framework in Frameworks */,
-				732F3B29173AA72400026B5E /* CoreGraphics.framework in Frameworks */,
-				62B53AF8FCC34164A8710600 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		732F3B42173AA73B00026B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +58,16 @@
 				732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */,
 				732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */,
 				DB546CAE40F147CEAB8B905C /* libPods-LogicTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7353DB5B173B28CB00C7B091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7353DB5F173B28CB00C7B091 /* UIKit.framework in Frameworks */,
+				7353DB60173B28CB00C7B091 /* Foundation.framework in Frameworks */,
+				7353DB61173B28CB00C7B091 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +89,8 @@
 		732F3B22173AA72400026B5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				732F3B21173AA72400026B5E /* AZDateBuilder.app */,
 				732F3B46173AA73B00026B5E /* LogicTests.octest */,
+				7353DB5E173B28CB00C7B091 /* MyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,25 +164,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		732F3B20173AA72400026B5E /* AZDateBuilder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 732F3B3E173AA72400026B5E /* Build configuration list for PBXNativeTarget "AZDateBuilder" */;
-			buildPhases = (
-				F9A0E233BCE244079D158C9F /* Check Pods Manifest.lock */,
-				732F3B1D173AA72400026B5E /* Sources */,
-				732F3B1E173AA72400026B5E /* Frameworks */,
-				732F3B1F173AA72400026B5E /* Resources */,
-				75D85BA5CD494B3C95013FEC /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AZDateBuilder;
-			productName = AZDateBuilder;
-			productReference = 732F3B21173AA72400026B5E /* AZDateBuilder.app */;
-			productType = "com.apple.product-type.application";
-		};
 		732F3B45173AA73B00026B5E /* LogicTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 732F3B55173AA73C00026B5E /* Build configuration list for PBXNativeTarget "LogicTests" */;
@@ -207,6 +183,23 @@
 			productName = LogicTests;
 			productReference = 732F3B46173AA73B00026B5E /* LogicTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		7353DB5D173B28CB00C7B091 /* MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7353DB74173B28CB00C7B091 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildPhases = (
+				7353DB5A173B28CB00C7B091 /* Sources */,
+				7353DB5B173B28CB00C7B091 /* Frameworks */,
+				7353DB5C173B28CB00C7B091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyApp;
+			productName = MyApp;
+			productReference = 7353DB5E173B28CB00C7B091 /* MyApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,27 +222,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				732F3B20173AA72400026B5E /* AZDateBuilder */,
+				7353DB5D173B28CB00C7B091 /* MyApp */,
 				732F3B45173AA73B00026B5E /* LogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		732F3B1F173AA72400026B5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732F3B37173AA72400026B5E /* Default.png in Resources */,
-				732F3B39173AA72400026B5E /* Default@2x.png in Resources */,
-				732F3B3B173AA72400026B5E /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		732F3B43173AA73B00026B5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7353DB5C173B28CB00C7B091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7353DB79173B28DF00C7B091 /* AZDateBuilder-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,53 +288,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		75D85BA5CD494B3C95013FEC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		F9A0E233BCE244079D158C9F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		732F3B1D173AA72400026B5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732F3B31173AA72400026B5E /* main.m in Sources */,
-				732F3B35173AA72400026B5E /* AppDelegate.m in Sources */,
-				732F3B71173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		732F3B41173AA73B00026B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */,
 				732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7353DB5A173B28CB00C7B091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7353DB77173B28D600C7B091 /* NSDate+AZDateBuilder.m in Sources */,
+				7353DB78173B28D900C7B091 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,30 +387,6 @@
 			};
 			name = Release;
 		};
-		732F3B3F173AA72400026B5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536137C745BE4FCB90291F97 /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AZDateBuilder/AZDateBuilder-Prefix.pch";
-				INFOPLIST_FILE = "AZDateBuilder/AZDateBuilder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		732F3B40173AA72400026B5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536137C745BE4FCB90291F97 /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AZDateBuilder/AZDateBuilder-Prefix.pch";
-				INFOPLIST_FILE = "AZDateBuilder/AZDateBuilder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		732F3B56173AA73C00026B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */;
@@ -481,6 +419,30 @@
 			};
 			name = Release;
 		};
+		7353DB75173B28CB00C7B091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7353DB76173B28CB00C7B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
+				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -493,15 +455,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		732F3B3E173AA72400026B5E /* Build configuration list for PBXNativeTarget "AZDateBuilder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				732F3B3F173AA72400026B5E /* Debug */,
-				732F3B40173AA72400026B5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		732F3B55173AA73C00026B5E /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -510,6 +463,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7353DB74173B28CB00C7B091 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7353DB75173B28CB00C7B091 /* Debug */,
+				7353DB76173B28CB00C7B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
