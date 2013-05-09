@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32B811A93A2E4C7D8C135535 /* libPods-ApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B1FD1A3AD402097862FDE /* libPods-ApplicationTests.a */; };
 		62B53AF8FCC34164A8710600 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1222BE749A489F84C49B3F /* libPods.a */; };
 		732F3B25173AA72400026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B27173AA72400026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
@@ -20,14 +19,9 @@
 		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B5E173AA74A00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
-		732F3B5F173AA74A00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
-		732F3B60173AA74A00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
 		732F3B71173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
-		732F3B73173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */; };
-		732F3B76173AA7A300026B5E /* AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */; };
 		DB546CAE40F147CEAB8B905C /* libPods-LogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,18 +45,12 @@
 		732F3B4D173AA73B00026B5E /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
-		732F3B5D173AA74A00026B5E /* ApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		732F3B63173AA74A00026B5E /* ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApplicationTests-Info.plist"; sourceTree = "<group>"; };
-		732F3B65173AA74A00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		732F3B6A173AA74A00026B5E /* ApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
 		732F3B6F173AA79400026B5E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
 		732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZDateBuilderTest.m; sourceTree = "<group>"; };
 		9D1222BE749A489F84C49B3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.xcconfig"; path = "Pods/Pods-LogicTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		D1D84422EE6C400B8DB18955 /* Pods-ApplicationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationTests.xcconfig"; path = "Pods/Pods-ApplicationTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E49B1FD1A3AD402097862FDE /* libPods-ApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732F3B59173AA74A00026B5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732F3B5E173AA74A00026B5E /* SenTestingKit.framework in Frameworks */,
-				732F3B5F173AA74A00026B5E /* UIKit.framework in Frameworks */,
-				732F3B60173AA74A00026B5E /* Foundation.framework in Frameworks */,
-				32B811A93A2E4C7D8C135535 /* libPods-ApplicationTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,11 +84,9 @@
 			children = (
 				732F3B2A173AA72400026B5E /* AZDateBuilder */,
 				732F3B4B173AA73B00026B5E /* LogicTests */,
-				732F3B61173AA74A00026B5E /* ApplicationTests */,
 				732F3B23173AA72400026B5E /* Frameworks */,
 				732F3B22173AA72400026B5E /* Products */,
 				536137C745BE4FCB90291F97 /* Pods.xcconfig */,
-				D1D84422EE6C400B8DB18955 /* Pods-ApplicationTests.xcconfig */,
 				C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +96,6 @@
 			children = (
 				732F3B21173AA72400026B5E /* AZDateBuilder.app */,
 				732F3B46173AA73B00026B5E /* LogicTests.octest */,
-				732F3B5D173AA74A00026B5E /* ApplicationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +108,6 @@
 				732F3B28173AA72400026B5E /* CoreGraphics.framework */,
 				732F3B47173AA73B00026B5E /* SenTestingKit.framework */,
 				9D1222BE749A489F84C49B3F /* libPods.a */,
-				E49B1FD1A3AD402097862FDE /* libPods-ApplicationTests.a */,
 				DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */,
 			);
 			name = Frameworks;
@@ -180,24 +153,6 @@
 				732F3B4D173AA73B00026B5E /* LogicTests-Info.plist */,
 				732F3B4E173AA73B00026B5E /* InfoPlist.strings */,
 				732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		732F3B61173AA74A00026B5E /* ApplicationTests */ = {
-			isa = PBXGroup;
-			children = (
-				732F3B62173AA74A00026B5E /* Supporting Files */,
-			);
-			path = ApplicationTests;
-			sourceTree = "<group>";
-		};
-		732F3B62173AA74A00026B5E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				732F3B63173AA74A00026B5E /* ApplicationTests-Info.plist */,
-				732F3B64173AA74A00026B5E /* InfoPlist.strings */,
-				732F3B6A173AA74A00026B5E /* ApplicationTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -253,26 +208,6 @@
 			productReference = 732F3B46173AA73B00026B5E /* LogicTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		732F3B5C173AA74A00026B5E /* ApplicationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 732F3B6B173AA74A00026B5E /* Build configuration list for PBXNativeTarget "ApplicationTests" */;
-			buildPhases = (
-				ACC3D4CBDEFA474798DA8484 /* Check Pods Manifest.lock */,
-				732F3B58173AA74A00026B5E /* Sources */,
-				732F3B59173AA74A00026B5E /* Frameworks */,
-				732F3B5A173AA74A00026B5E /* Resources */,
-				732F3B5B173AA74A00026B5E /* ShellScript */,
-				C8B5D829350D45A683BBA384 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ApplicationTests;
-			productName = ApplicationTests;
-			productReference = 732F3B5D173AA74A00026B5E /* ApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -296,7 +231,6 @@
 			targets = (
 				732F3B20173AA72400026B5E /* AZDateBuilder */,
 				732F3B45173AA73B00026B5E /* LogicTests */,
-				732F3B5C173AA74A00026B5E /* ApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,13 +247,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		732F3B43173AA73B00026B5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		732F3B5A173AA74A00026B5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,19 +297,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		732F3B5B173AA74A00026B5E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		75D85BA5CD494B3C95013FEC /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,34 +310,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		ACC3D4CBDEFA474798DA8484 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
-		C8B5D829350D45A683BBA384 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ApplicationTests-resources.sh\"\n";
 		};
 		F9A0E233BCE244079D158C9F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -461,15 +347,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		732F3B58173AA74A00026B5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732F3B73173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */,
-				732F3B76173AA7A300026B5E /* AZDateBuilderTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -485,14 +362,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				732F3B4F173AA73B00026B5E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		732F3B64173AA74A00026B5E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				732F3B65173AA74A00026B5E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -612,42 +481,6 @@
 			};
 			name = Release;
 		};
-		732F3B6C173AA74A00026B5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D84422EE6C400B8DB18955 /* Pods-ApplicationTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZDateBuilder.app/AZDateBuilder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ApplicationTests/ApplicationTests-Prefix.pch";
-				INFOPLIST_FILE = "ApplicationTests/ApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		732F3B6D173AA74A00026B5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D84422EE6C400B8DB18955 /* Pods-ApplicationTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZDateBuilder.app/AZDateBuilder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ApplicationTests/ApplicationTests-Prefix.pch";
-				INFOPLIST_FILE = "ApplicationTests/ApplicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -674,15 +507,6 @@
 			buildConfigurations = (
 				732F3B56173AA73C00026B5E /* Debug */,
 				732F3B57173AA73C00026B5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		732F3B6B173AA74A00026B5E /* Build configuration list for PBXNativeTarget "ApplicationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				732F3B6C173AA74A00026B5E /* Debug */,
-				732F3B6D173AA74A00026B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
