@@ -7,44 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C3D6A910AF0802187B03 /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */; };
 		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
 		732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */; };
-		7353DB5F173B28CB00C7B091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
-		7353DB60173B28CB00C7B091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		7353DB61173B28CB00C7B091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B28173AA72400026B5E /* CoreGraphics.framework */; };
-		7353DB77173B28D600C7B091 /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */; };
-		7353DB78173B28D900C7B091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B34173AA72400026B5E /* AppDelegate.m */; };
-		7353DB79173B28DF00C7B091 /* AZDateBuilder-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 732F3B2C173AA72400026B5E /* AZDateBuilder-Info.plist */; };
 		DB546CAE40F147CEAB8B905C /* libPods-LogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		536137C745BE4FCB90291F97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
+		17B5C99ED6DC47CB4FC37BA9 /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
 		732F3B24173AA72400026B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		732F3B26173AA72400026B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		732F3B28173AA72400026B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		732F3B2C173AA72400026B5E /* AZDateBuilder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZDateBuilder-Info.plist"; sourceTree = "<group>"; };
-		732F3B2E173AA72400026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		732F3B30173AA72400026B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		732F3B32173AA72400026B5E /* AZDateBuilder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZDateBuilder-Prefix.pch"; sourceTree = "<group>"; };
-		732F3B33173AA72400026B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		732F3B34173AA72400026B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		732F3B36173AA72400026B5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		732F3B38173AA72400026B5E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		732F3B3A173AA72400026B5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		732F3B46173AA73B00026B5E /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F3B47173AA73B00026B5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		732F3B4D173AA73B00026B5E /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
-		732F3B6F173AA79400026B5E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
-		732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZDateBuilderTest.m; sourceTree = "<group>"; };
-		7353DB5E173B28CB00C7B091 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1222BE749A489F84C49B3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.xcconfig"; path = "Pods/Pods-LogicTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,28 +43,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7353DB5B173B28CB00C7B091 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7353DB5F173B28CB00C7B091 /* UIKit.framework in Frameworks */,
-				7353DB60173B28CB00C7B091 /* Foundation.framework in Frameworks */,
-				7353DB61173B28CB00C7B091 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C1971A214FAD31FAA55A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C99ED6DC47CB4FC37BA9 /* NSDate+AZDateBuilder.h */,
+				17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 		732F3B18173AA72400026B5E = {
 			isa = PBXGroup;
 			children = (
-				732F3B2A173AA72400026B5E /* AZDateBuilder */,
 				732F3B4B173AA73B00026B5E /* LogicTests */,
 				732F3B23173AA72400026B5E /* Frameworks */,
 				732F3B22173AA72400026B5E /* Products */,
-				536137C745BE4FCB90291F97 /* Pods.xcconfig */,
 				C73C5738CA6F4A48AED4AADE /* Pods-LogicTests.xcconfig */,
+				17B5C1971A214FAD31FAA55A /* Lib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				732F3B46173AA73B00026B5E /* LogicTests.octest */,
-				7353DB5E173B28CB00C7B091 /* MyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,35 +81,9 @@
 				732F3B26173AA72400026B5E /* Foundation.framework */,
 				732F3B28173AA72400026B5E /* CoreGraphics.framework */,
 				732F3B47173AA73B00026B5E /* SenTestingKit.framework */,
-				9D1222BE749A489F84C49B3F /* libPods.a */,
 				DB72C7EA4FA540E893AF310C /* libPods-LogicTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		732F3B2A173AA72400026B5E /* AZDateBuilder */ = {
-			isa = PBXGroup;
-			children = (
-				732F3B6E173AA79400026B5E /* Lib */,
-				732F3B33173AA72400026B5E /* AppDelegate.h */,
-				732F3B34173AA72400026B5E /* AppDelegate.m */,
-				732F3B2B173AA72400026B5E /* Supporting Files */,
-			);
-			path = AZDateBuilder;
-			sourceTree = "<group>";
-		};
-		732F3B2B173AA72400026B5E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				732F3B2C173AA72400026B5E /* AZDateBuilder-Info.plist */,
-				732F3B2D173AA72400026B5E /* InfoPlist.strings */,
-				732F3B30173AA72400026B5E /* main.m */,
-				732F3B32173AA72400026B5E /* AZDateBuilder-Prefix.pch */,
-				732F3B36173AA72400026B5E /* Default.png */,
-				732F3B38173AA72400026B5E /* Default@2x.png */,
-				732F3B3A173AA72400026B5E /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		732F3B4B173AA73B00026B5E /* LogicTests */ = {
@@ -150,15 +103,6 @@
 				732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		732F3B6E173AA79400026B5E /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				732F3B6F173AA79400026B5E /* NSDate+AZDateBuilder.h */,
-				732F3B70173AA79400026B5E /* NSDate+AZDateBuilder.m */,
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,23 +128,6 @@
 			productReference = 732F3B46173AA73B00026B5E /* LogicTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7353DB5D173B28CB00C7B091 /* MyApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7353DB74173B28CB00C7B091 /* Build configuration list for PBXNativeTarget "MyApp" */;
-			buildPhases = (
-				7353DB5A173B28CB00C7B091 /* Sources */,
-				7353DB5B173B28CB00C7B091 /* Frameworks */,
-				7353DB5C173B28CB00C7B091 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyApp;
-			productName = MyApp;
-			productReference = 7353DB5E173B28CB00C7B091 /* MyApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,7 +149,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7353DB5D173B28CB00C7B091 /* MyApp */,
 				732F3B45173AA73B00026B5E /* LogicTests */,
 			);
 		};
@@ -233,14 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7353DB5C173B28CB00C7B091 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7353DB79173B28DF00C7B091 /* AZDateBuilder-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,31 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B72173AA79400026B5E /* NSDate+AZDateBuilder.m in Sources */,
 				732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7353DB5A173B28CB00C7B091 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7353DB77173B28D600C7B091 /* NSDate+AZDateBuilder.m in Sources */,
-				7353DB78173B28D900C7B091 /* AppDelegate.m in Sources */,
+				17B5C3D6A910AF0802187B03 /* NSDate+AZDateBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		732F3B2D173AA72400026B5E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				732F3B2E173AA72400026B5E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		732F3B4E173AA73B00026B5E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,7 +257,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -380,7 +281,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -419,30 +320,6 @@
 			};
 			name = Release;
 		};
-		7353DB75173B28CB00C7B091 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
-				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		7353DB76173B28CB00C7B091 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
-				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,14 +340,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		7353DB74173B28CB00C7B091 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7353DB75173B28CB00C7B091 /* Debug */,
-				7353DB76173B28CB00C7B091 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
