@@ -4,6 +4,12 @@
 
 Simple NSDate Builder
 
+## Installation
+
+```ruby
+pod 'AZDateBuilder', :git => 'https://github.com/azu/AZDateBuilder.git'
+```
+
 # Usage
 
     // 2010-1-1 11:10:05
