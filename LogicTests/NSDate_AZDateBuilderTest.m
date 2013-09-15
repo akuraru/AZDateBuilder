@@ -13,16 +13,16 @@
 #import "NSDate+AZDateBuilder.h"
 
 
-@interface AZDateBuilderTest : SenTestCase
+@interface NSDate_AZDateBuilderTest : SenTestCase
 @end
 
-@implementation AZDateBuilderTest {
+@implementation NSDate_AZDateBuilderTest {
 }
 
 #define DATE_COMPONENTS (NSYearCalendarUnit| NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit)
 
 
-- (void)testInstanceDateByUnit {
+- (void)testInstanceAZ_dateByUnit {
     // given
     NSArray *undefinedKeys = @[
         AZ_DateUnit.year,
@@ -36,7 +36,7 @@
     };
     // when
     NSDate *basedDate = [NSDate date];
-    NSDate *date = [basedDate dateByUnit:unit];
+    NSDate *date = [basedDate AZ_dateByUnit:unit];
     // then
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *components = [calendar components:DATE_COMPONENTS fromDate:date];
@@ -64,7 +64,7 @@
         AZ_DateUnit.second : @1
     };
     // when
-    NSDate *date = [NSDate dateByUnit:unit];
+    NSDate *date = [NSDate AZ_dateByUnit:unit];
     // then
     id calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *components = [calendar components:DATE_COMPONENTS fromDate:date];
@@ -86,7 +86,7 @@
         AZ_DateUnit.hour : @1,
         AZ_DateUnit.minute : @1,
     };
-    NSDate *date = [NSDate dateByUnit:unit];
+    NSDate *date = [NSDate AZ_dateByUnit:unit];
     // then
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *resultComponents = [calendar components:DATE_COMPONENTS fromDate:date];
@@ -101,5 +101,6 @@
         id resultValue = [resultComponents valueForKey:key];
         assertThat(resultValue, is(equalTo(defaultValue)));
     }
+
 }
 @end

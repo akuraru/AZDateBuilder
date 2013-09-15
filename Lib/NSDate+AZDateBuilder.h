@@ -25,8 +25,9 @@ extern const struct AZDateBuilderUnit {
 } AZ_DateUnit;
 
 @interface NSDate (AZDateBuilder)
++ (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit;
++ (NSDate *)dateByUnit:(NSDictionary *) builderUnit __attribute__((deprecated("This method has been replaced by +[NSDate AZ_dateByUnit:]")));
 
-+ (NSDate *)dateByUnit:(NSDictionary *) builderUnit;
-
-- (NSDate *)dateByUnit:(NSDictionary *) builderUnit;
+- (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit;
+- (NSDate *)dateByUnit:(NSDictionary *) builderUnit __attribute__((deprecated("This method has been replaced by -[NSDate AZ_dateByUnit:]")));
 @end

@@ -27,7 +27,7 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
 
 @implementation NSDate (AZDateBuilder)
 
-+ (NSDate *)dateByUnit:(NSDictionary *) builderUnit {
++ (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
     dateComponents.calendar = calendar;
@@ -39,8 +39,7 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
     return [calendar dateFromComponents:dateComponents];
 }
 
-
-- (NSDate *)dateByUnit:(NSDictionary *) builderUnit {
+- (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *dateComponents = [calendar components:DATE_COMPONENTS fromDate:self];
     dateComponents.calendar = calendar;
@@ -50,5 +49,14 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
         [dateComponents setValue:number forKey:key];
     }
     return [calendar dateFromComponents:dateComponents];
+}
+
+
++ (NSDate *)dateByUnit:(NSDictionary *) builderUnit {
+    return [self AZ_dateByUnit:builderUnit];
+}
+
+- (NSDate *)dateByUnit:(NSDictionary *) builderUnit {
+    return [self AZ_dateByUnit:builderUnit];
 }
 @end

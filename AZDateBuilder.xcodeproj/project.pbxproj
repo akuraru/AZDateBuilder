@@ -11,7 +11,7 @@
 		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
-		732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */; };
+		732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */; };
 		898CA98F7DA84FC9BC535997 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95F5BAE82BD430EAB96D6DE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		732F3B4D173AA73B00026B5E /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
-		732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZDateBuilderTest.m; sourceTree = "<group>"; };
+		732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_AZDateBuilderTest.m; sourceTree = "<group>"; };
 		9DDF2A77861B4783BA099F55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A95F5BAE82BD430EAB96D6DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,7 +89,7 @@
 		732F3B4B173AA73B00026B5E /* LogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				732F3B74173AA7A300026B5E /* AZDateBuilderTest.m */,
+				732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */,
 				732F3B4C173AA73B00026B5E /* Supporting Files */,
 			);
 			path = LogicTests;
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B75173AA7A300026B5E /* AZDateBuilderTest.m in Sources */,
+				732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */,
 				17B5C3D6A910AF0802187B03 /* NSDate+AZDateBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@ pod 'AZDateBuilder', :git => 'https://github.com/azu/AZDateBuilder.git'
 # Usage
 
     // 2010-1-1 11:10:05
-    NSDate *date = [NSDate dateByUnit:@{
+    NSDate *date = [NSDate AZ_dateByUnit:@{
         AZ_DateUnit.year : @2010,
         AZ_DateUnit.month : @1,
         AZ_DateUnit.day : @1,
@@ -23,7 +23,7 @@ pod 'AZDateBuilder', :git => 'https://github.com/azu/AZDateBuilder.git'
     }];
 
     // 2020-1-1 11:10:05
-    NSDate *newDate = [date dateByUnit:@{
+    NSDate *newDate = [date AZ_dateByUnit:@{
         AZ_DateUnit.year : @2020,
     }];
 
