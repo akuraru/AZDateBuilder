@@ -7,7 +7,7 @@ Simple NSDate Builder
 ## Installation
 
 ```ruby
-pod 'AZDateBuilder', :git => 'https://github.com/azu/AZDateBuilder.git'
+pod 'AZDateBuilder'
 ```
 
 # Usage
