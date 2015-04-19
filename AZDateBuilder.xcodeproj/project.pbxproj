@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17B5C3D6A910AF0802187B03 /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */; };
-		732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B47173AA73B00026B5E /* SenTestingKit.framework */; };
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
 		732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */; };
@@ -16,18 +15,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		17B5C99ED6DC47CB4FC37BA9 /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
 		732F3B24173AA72400026B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		732F3B26173AA72400026B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		732F3B28173AA72400026B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		732F3B46173AA73B00026B5E /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		732F3B47173AA73B00026B5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		732F3B46173AA73B00026B5E /* LogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F3B4D173AA73B00026B5E /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_AZDateBuilderTest.m; sourceTree = "<group>"; };
-		9DDF2A77861B4783BA099F55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A95F5BAE82BD430EAB96D6DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F3B48173AA73B00026B5E /* SenTestingKit.framework in Frameworks */,
 				732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */,
 				732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */,
 				898CA98F7DA84FC9BC535997 /* libPods.a in Frameworks */,
@@ -46,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0C83E09CDFFFF690C5E707 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */,
+				A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		17B5C1971A214FAD31FAA55A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,14 +69,14 @@
 				732F3B23173AA72400026B5E /* Frameworks */,
 				732F3B22173AA72400026B5E /* Products */,
 				17B5C1971A214FAD31FAA55A /* Lib */,
-				9DDF2A77861B4783BA099F55 /* Pods.xcconfig */,
+				0D0C83E09CDFFFF690C5E707 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		732F3B22173AA72400026B5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				732F3B46173AA73B00026B5E /* LogicTests.octest */,
+				732F3B46173AA73B00026B5E /* LogicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +87,6 @@
 				732F3B24173AA72400026B5E /* UIKit.framework */,
 				732F3B26173AA72400026B5E /* Foundation.framework */,
 				732F3B28173AA72400026B5E /* CoreGraphics.framework */,
-				732F3B47173AA73B00026B5E /* SenTestingKit.framework */,
 				A95F5BAE82BD430EAB96D6DE /* libPods.a */,
 			);
 			name = Frameworks;
@@ -125,8 +131,8 @@
 			);
 			name = LogicTests;
 			productName = LogicTests;
-			productReference = 732F3B46173AA73B00026B5E /* LogicTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 732F3B46173AA73B00026B5E /* LogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -134,6 +140,7 @@
 		732F3B19173AA72400026B5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = azu;
 			};
@@ -177,7 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 		};
 		6319269AB4474DA695597916 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -291,35 +298,37 @@
 		};
 		732F3B56173AA73C00026B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DDF2A77861B4783BA099F55 /* Pods.xcconfig */;
+			baseConfigurationReference = 0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
-				ONLY_ACTIVE_ARCH = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		732F3B57173AA73C00026B5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DDF2A77861B4783BA099F55 /* Pods.xcconfig */;
+			baseConfigurationReference = A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
-				ONLY_ACTIVE_ARCH = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

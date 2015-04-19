@@ -23,12 +23,12 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
     .weekOfYear = @"weekOfYear",
     .yearForWeekOfYear = @"yearForWeekOfYear"
 };
-#define DATE_COMPONENTS (NSYearCalendarUnit| NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit)
+#define DATE_COMPONENTS (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal | NSCalendarUnitWeekOfYear)
 
 @implementation NSDate (AZDateBuilder)
 
 + (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
     dateComponents.calendar = calendar;
     for (NSString *key in [builderUnit allKeys]) {
@@ -40,7 +40,7 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
 }
 
 - (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *dateComponents = [calendar components:DATE_COMPONENTS fromDate:self];
     dateComponents.calendar = calendar;
     for (NSString *key in [builderUnit allKeys]) {

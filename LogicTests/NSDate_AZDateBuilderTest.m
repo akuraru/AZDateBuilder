@@ -5,7 +5,7 @@
 //
 
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 #define HC_SHORTHAND 1
 
@@ -13,13 +13,13 @@
 #import "NSDate+AZDateBuilder.h"
 
 
-@interface NSDate_AZDateBuilderTest : SenTestCase
+@interface NSDate_AZDateBuilderTest : XCTestCase
 @end
 
 @implementation NSDate_AZDateBuilderTest {
 }
 
-#define DATE_COMPONENTS (NSYearCalendarUnit| NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit)
+#define DATE_COMPONENTS (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |  NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal)
 
 
 - (void)testInstanceAZ_dateByUnit {
@@ -38,7 +38,7 @@
     NSDate *basedDate = [NSDate date];
     NSDate *date = [basedDate AZ_dateByUnit:unit];
     // then
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *components = [calendar components:DATE_COMPONENTS fromDate:date];
     NSDateComponents *basedComponents = [calendar components:DATE_COMPONENTS fromDate:basedDate];
     for (NSString *key in [unit allKeys]) {
@@ -66,7 +66,7 @@
     // when
     NSDate *date = [NSDate AZ_dateByUnit:unit];
     // then
-    id calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    id calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *components = [calendar components:DATE_COMPONENTS fromDate:date];
     for (NSString *key in [unit allKeys]) {
         NSNumber *value = [components valueForKey:key];
@@ -88,7 +88,7 @@
     };
     NSDate *date = [NSDate AZ_dateByUnit:unit];
     // then
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *resultComponents = [calendar components:DATE_COMPONENTS fromDate:date];
     // empty dateComponents -> date -> dateComponents
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];

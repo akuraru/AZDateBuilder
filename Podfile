@@ -1,2 +1,3 @@
-platform :ios, '5.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '6.0'
 pod 'OCHamcrest'
