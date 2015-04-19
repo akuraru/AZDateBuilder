@@ -22,6 +22,9 @@ extern const struct AZDateBuilderUnit {
     __unsafe_unretained NSString *weekOfMonth;
     __unsafe_unretained NSString *weekOfYear;
     __unsafe_unretained NSString *yearForWeekOfYear;
+    __unsafe_unretained NSString *nanosecond;
+    __unsafe_unretained NSString *calendar;
+    __unsafe_unretained NSString *timeZone;
 } AZ_DateUnit;
 
 @interface NSDate (AZDateBuilder)

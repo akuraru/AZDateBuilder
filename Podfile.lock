@@ -1,10 +1,10 @@
 PODS:
-  - OCHamcrest (2.1.0)
+  - OCHamcrest (4.1.1)
 
 DEPENDENCIES:
   - OCHamcrest
 
 SPEC CHECKSUMS:
-  OCHamcrest: 96f5cb58fa0fd4b3609d37fe21e5246b259bba2a
+  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
 
-COCOAPODS: 0.23.0
+COCOAPODS: 0.36.3

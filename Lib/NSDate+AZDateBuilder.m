@@ -21,14 +21,17 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
     .quarter = @"quarter",
     .weekOfMonth = @"weekOfMonth",
     .weekOfYear = @"weekOfYear",
-    .yearForWeekOfYear = @"yearForWeekOfYear"
+    .yearForWeekOfYear = @"yearForWeekOfYear",
+    .nanosecond = @"nanosecond",
+    .calendar = @"calendar",
+    .timeZone = @"timeZone",
 };
-#define DATE_COMPONENTS (NSYearCalendarUnit| NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekCalendarUnit |  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekdayCalendarUnit | NSWeekdayOrdinalCalendarUnit)
+#define DATE_COMPONENTS (NSCalendarUnitEra | NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal | NSCalendarUnitQuarter | NSCalendarUnitWeekOfMonth | NSCalendarUnitWeekOfYear | NSCalendarUnitYearForWeekOfYear | NSCalendarUnitNanosecond | NSCalendarUnitCalendar | NSCalendarUnitTimeZone)
 
 @implementation NSDate (AZDateBuilder)
 
 + (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
     dateComponents.calendar = calendar;
     for (NSString *key in [builderUnit allKeys]) {
@@ -40,7 +43,7 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
 }
 
 - (NSDate *)AZ_dateByUnit:(NSDictionary *) builderUnit {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *dateComponents = [calendar components:DATE_COMPONENTS fromDate:self];
     dateComponents.calendar = calendar;
     for (NSString *key in [builderUnit allKeys]) {
