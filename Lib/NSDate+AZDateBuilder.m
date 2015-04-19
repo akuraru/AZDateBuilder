@@ -21,9 +21,12 @@ const struct AZDateBuilderUnit AZ_DateUnit = {
     .quarter = @"quarter",
     .weekOfMonth = @"weekOfMonth",
     .weekOfYear = @"weekOfYear",
-    .yearForWeekOfYear = @"yearForWeekOfYear"
+    .yearForWeekOfYear = @"yearForWeekOfYear",
+    .nanosecond = @"nanosecond",
+    .calendar = @"calendar",
+    .timeZone = @"timeZone",
 };
-#define DATE_COMPONENTS (NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal | NSCalendarUnitWeekOfYear)
+#define DATE_COMPONENTS (NSCalendarUnitEra | NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal | NSCalendarUnitQuarter | NSCalendarUnitWeekOfMonth | NSCalendarUnitWeekOfYear | NSCalendarUnitYearForWeekOfYear | NSCalendarUnitNanosecond | NSCalendarUnitCalendar | NSCalendarUnitTimeZone)
 
 @implementation NSDate (AZDateBuilder)
 
