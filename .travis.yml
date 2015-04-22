@@ -1,2 +1,6 @@
 language: objective-c
-script: xctool test
+env: LC_CTYPE=en_US.UTF-8
+before_install:
+  - gem install cocoapods
+script: 
+  - xctool test
