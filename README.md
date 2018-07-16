@@ -1,6 +1,6 @@
 # AZDateBuilder
 
-[![Build Status](https://travis-ci.org/azu/AZDateBuilder.png?branch=master)](https://travis-ci.org/azu/AZDateBuilder)
+[![Build Status](https://travis-ci.org/PlusR/AZDateBuilder.svg?branch=master)](https://travis-ci.org/PlusR/AZDateBuilder)
 
 Simple NSDate Builder
 

@@ -1,3 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '6.0'
-pod 'OCHamcrest'
+platform :ios, '11.3'
+
+
+target :LogicTests do
+  pod 'OCHamcrest'
+end

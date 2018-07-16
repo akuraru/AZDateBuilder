@@ -11,13 +11,14 @@
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
 		732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */; };
-		898CA98F7DA84FC9BC535997 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95F5BAE82BD430EAB96D6DE /* libPods.a */; };
+		EB4D991F7272C2A178579437 /* libPods-LogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1D75AEACAFD328ABD8367B /* libPods-LogicTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		17B5C99ED6DC47CB4FC37BA9 /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
+		45C3D1AB77D6321989585B64 /* Pods-LogicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogicTests/Pods-LogicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1D75AEACAFD328ABD8367B /* libPods-LogicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F3B24173AA72400026B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		732F3B26173AA72400026B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		732F3B28173AA72400026B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -26,8 +27,7 @@
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_AZDateBuilderTest.m; sourceTree = "<group>"; };
-		A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A95F5BAE82BD430EAB96D6DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EAFC3CBA13DB0347A8B118 /* Pods-LogicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogicTests/Pods-LogicTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,22 +37,13 @@
 			files = (
 				732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */,
 				732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */,
-				898CA98F7DA84FC9BC535997 /* libPods.a in Frameworks */,
+				EB4D991F7272C2A178579437 /* libPods-LogicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D0C83E09CDFFFF690C5E707 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */,
-				A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		17B5C1971A214FAD31FAA55A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +60,7 @@
 				732F3B23173AA72400026B5E /* Frameworks */,
 				732F3B22173AA72400026B5E /* Products */,
 				17B5C1971A214FAD31FAA55A /* Lib */,
-				0D0C83E09CDFFFF690C5E707 /* Pods */,
+				A1BC244F96A0785392A81E0C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +78,7 @@
 				732F3B24173AA72400026B5E /* UIKit.framework */,
 				732F3B26173AA72400026B5E /* Foundation.framework */,
 				732F3B28173AA72400026B5E /* CoreGraphics.framework */,
-				A95F5BAE82BD430EAB96D6DE /* libPods.a */,
+				6D1D75AEACAFD328ABD8367B /* libPods-LogicTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +102,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A1BC244F96A0785392A81E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45C3D1AB77D6321989585B64 /* Pods-LogicTests.debug.xcconfig */,
+				D2EAFC3CBA13DB0347A8B118 /* Pods-LogicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,12 +118,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 732F3B55173AA73C00026B5E /* Build configuration list for PBXNativeTarget "LogicTests" */;
 			buildPhases = (
-				6319269AB4474DA695597916 /* Check Pods Manifest.lock */,
+				029372010C6447BADE04D082 /* [CP] Check Pods Manifest.lock */,
 				732F3B41173AA73B00026B5E /* Sources */,
 				732F3B42173AA73B00026B5E /* Frameworks */,
 				732F3B43173AA73B00026B5E /* Resources */,
-				732F3B44173AA73B00026B5E /* ShellScript */,
-				0841C3CBC19F4CA0A85C7A69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0600;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = azu;
 			};
 			buildConfigurationList = 732F3B1C173AA72400026B5E /* Build configuration list for PBXProject "AZDateBuilder" */;
@@ -172,46 +170,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0841C3CBC19F4CA0A85C7A69 /* Copy Pods Resources */ = {
+		029372010C6447BADE04D082 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogicTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-		};
-		6319269AB4474DA695597916 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
-		732F3B44173AA73B00026B5E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -246,25 +221,43 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -277,18 +270,35 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -298,7 +308,7 @@
 		};
 		732F3B56173AA73C00026B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C84B1B4E30351FC58B01627 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 45C3D1AB77D6321989585B64 /* Pods-LogicTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -309,14 +319,15 @@
 				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.efcl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		732F3B57173AA73C00026B5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A41006ED1ED923864EA4B9DA /* Pods.release.xcconfig */;
+			baseConfigurationReference = D2EAFC3CBA13DB0347A8B118 /* Pods-LogicTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -328,6 +339,7 @@
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.efcl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
