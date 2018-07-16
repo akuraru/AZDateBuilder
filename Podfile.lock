@@ -4,7 +4,13 @@ PODS:
 DEPENDENCIES:
   - OCHamcrest
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OCHamcrest
+
 SPEC CHECKSUMS:
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
 
-COCOAPODS: 0.36.4
+PODFILE CHECKSUM: c7df9ce9337b5b88cbc4113786622b902a282e75
+
+COCOAPODS: 1.5.3
