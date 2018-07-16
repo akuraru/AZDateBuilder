@@ -38,7 +38,26 @@
                ReferencedContainer = "container:AZDateBuilder.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE10D2AD20FC711F00B616FA"
+               BuildableName = "SwiftTests.xctest"
+               BlueprintName = "SwiftTests"
+               ReferencedContainer = "container:AZDateBuilder.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "732F3B45173AA73B00026B5E"
+            BuildableName = "LogicTests.xctest"
+            BlueprintName = "LogicTests"
+            ReferencedContainer = "container:AZDateBuilder.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -70,6 +89,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "732F3B45173AA73B00026B5E"
+            BuildableName = "LogicTests.xctest"
+            BlueprintName = "LogicTests"
+            ReferencedContainer = "container:AZDateBuilder.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
