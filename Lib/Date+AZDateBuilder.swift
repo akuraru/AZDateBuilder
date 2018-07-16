@@ -1,7 +1,7 @@
 import Foundation
 
 extension Date {
-    static func date(by unit: [Calendar.Component: Int]) -> Date {
+    public static func date(by unit: [Calendar.Component: Int]) -> Date {
         let calendar = Calendar(identifier: .gregorian)
         var dateComponents = DateComponents()
         dateComponents.calendar = calendar
@@ -11,7 +11,7 @@ extension Date {
         return calendar.date(from: dateComponents)!
     }
     
-    func date(by unit: [Calendar.Component: Int]) -> Date {
+    public func date(by unit: [Calendar.Component: Int]) -> Date {
         let calendar = Calendar(identifier: .gregorian)
         var dateComponents = calendar.dateComponents(allComponents(), from: self)
         dateComponents.calendar = calendar
