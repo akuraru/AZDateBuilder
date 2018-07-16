@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AZDateBuilder"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Simple NSDate builder library."
   s.homepage     = "https://github.com/azu/AZDateBuilder"
   s.license      = 'MIT'
