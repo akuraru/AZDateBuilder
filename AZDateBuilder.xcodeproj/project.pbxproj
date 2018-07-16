@@ -11,6 +11,8 @@
 		732F3B49173AA73B00026B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B24173AA72400026B5E /* UIKit.framework */; };
 		732F3B4A173AA73B00026B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F3B26173AA72400026B5E /* Foundation.framework */; };
 		732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */; };
+		BE10D2B120FC711F00B616FA /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10D2B020FC711F00B616FA /* SwiftTests.swift */; };
+		BE10D2B620FC71BD00B616FA /* Date+AZDateBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10D2A820FC6CFC00B616FA /* Date+AZDateBuilder.swift */; };
 		EB4D991F7272C2A178579437 /* libPods-LogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1D75AEACAFD328ABD8367B /* libPods-LogicTests.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		732F3B4F173AA73B00026B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732F3B54173AA73B00026B5E /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		732F3B74173AA7A300026B5E /* NSDate_AZDateBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_AZDateBuilderTest.m; sourceTree = "<group>"; };
+		BE10D2A820FC6CFC00B616FA /* Date+AZDateBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AZDateBuilder.swift"; sourceTree = "<group>"; };
+		BE10D2AE20FC711F00B616FA /* SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE10D2B020FC711F00B616FA /* SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTests.swift; sourceTree = "<group>"; };
+		BE10D2B220FC711F00B616FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2EAFC3CBA13DB0347A8B118 /* Pods-LogicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogicTests/Pods-LogicTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +47,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE10D2AB20FC711F00B616FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +62,7 @@
 			children = (
 				17B5C99ED6DC47CB4FC37BA9 /* NSDate+AZDateBuilder.h */,
 				17B5C0F73EACA82F47D6E59E /* NSDate+AZDateBuilder.m */,
+				BE10D2A820FC6CFC00B616FA /* Date+AZDateBuilder.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -57,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				732F3B4B173AA73B00026B5E /* LogicTests */,
+				BE10D2AF20FC711F00B616FA /* SwiftTests */,
 				732F3B23173AA72400026B5E /* Frameworks */,
 				732F3B22173AA72400026B5E /* Products */,
 				17B5C1971A214FAD31FAA55A /* Lib */,
@@ -68,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				732F3B46173AA73B00026B5E /* LogicTests.xctest */,
+				BE10D2AE20FC711F00B616FA /* SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +127,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE10D2AF20FC711F00B616FA /* SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE10D2B020FC711F00B616FA /* SwiftTests.swift */,
+				BE10D2B220FC711F00B616FA /* Info.plist */,
+			);
+			path = SwiftTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,15 +157,42 @@
 			productReference = 732F3B46173AA73B00026B5E /* LogicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BE10D2AD20FC711F00B616FA /* SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE10D2B320FC711F00B616FA /* Build configuration list for PBXNativeTarget "SwiftTests" */;
+			buildPhases = (
+				BE10D2AA20FC711F00B616FA /* Sources */,
+				BE10D2AB20FC711F00B616FA /* Frameworks */,
+				BE10D2AC20FC711F00B616FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTests;
+			productName = SwiftTests;
+			productReference = BE10D2AE20FC711F00B616FA /* SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		732F3B19173AA72400026B5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = azu;
+				TargetAttributes = {
+					732F3B45173AA73B00026B5E = {
+						LastSwiftMigration = 0940;
+					};
+					BE10D2AD20FC711F00B616FA = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 732F3B1C173AA72400026B5E /* Build configuration list for PBXProject "AZDateBuilder" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -155,12 +207,20 @@
 			projectRoot = "";
 			targets = (
 				732F3B45173AA73B00026B5E /* LogicTests */,
+				BE10D2AD20FC711F00B616FA /* SwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		732F3B43173AA73B00026B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE10D2AC20FC711F00B616FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,6 +257,15 @@
 			files = (
 				732F3B75173AA7A300026B5E /* NSDate_AZDateBuilderTest.m in Sources */,
 				17B5C3D6A910AF0802187B03 /* NSDate+AZDateBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE10D2AA20FC711F00B616FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE10D2B620FC71BD00B616FA /* Date+AZDateBuilder.swift in Sources */,
+				BE10D2B120FC711F00B616FA /* SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45C3D1AB77D6321989585B64 /* Pods-LogicTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -319,9 +389,12 @@
 				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.efcl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -329,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2EAFC3CBA13DB0347A8B118 /* Pods-LogicTests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -338,9 +412,74 @@
 				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
 				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.efcl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE10D2B420FC711F00B616FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akuraru.SwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE10D2B520FC711F00B616FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akuraru.SwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -361,6 +500,15 @@
 			buildConfigurations = (
 				732F3B56173AA73C00026B5E /* Debug */,
 				732F3B57173AA73C00026B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE10D2B320FC711F00B616FA /* Build configuration list for PBXNativeTarget "SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE10D2B420FC711F00B616FA /* Debug */,
+				BE10D2B520FC711F00B616FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
