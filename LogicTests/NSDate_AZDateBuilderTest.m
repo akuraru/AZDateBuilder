@@ -101,6 +101,21 @@
         id resultValue = [resultComponents valueForKey:key];
         assertThat(resultValue, is(equalTo(defaultValue)));
     }
+}
 
+- (void)testAddingYear {
+    NSDate *currentDate = [NSDate AZ_dateByUnit:@{
+        AZ_DateUnit.year: @2010,
+        AZ_DateUnit.month: @10,
+        AZ_DateUnit.day: @12,
+    }];
+    
+    NSDate *expectDate = [currentDate AZ_dateByUnit:@{
+        AZ_DateUnit.year: @2011,
+    }];
+    
+    NSCalendar *calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+    NSInteger year = [calendar component:NSCalendarUnitYear fromDate:expectDate];
+    XCTAssertEqual(year, 2011);
 }
 @end
