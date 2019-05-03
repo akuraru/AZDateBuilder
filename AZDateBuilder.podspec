@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AZDateBuilder"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Simple NSDate builder library."
   s.homepage     = "https://github.com/azu/AZDateBuilder"
   s.license      = 'MIT'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/azu/AZDateBuilder.git",
     :tag => s.version.to_s
   }
-  s.swift_version = '4.1'
+  s.swift_version = '5.0'
   s.requires_arc = true
 
   s.default_subspec = 'ObjC'
