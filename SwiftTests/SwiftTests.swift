@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import AZDateBuilderSwift
 
 class SwiftTests: XCTestCase {
     func components() -> Set<Calendar.Component> {

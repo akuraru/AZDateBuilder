@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ochamcrest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hamcrest/OCHamcrest",
+      "state" : {
+        "revision" : "8c5e0f772ce178bdc07be1fb1778a83d78a42be5",
+        "version" : "9.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

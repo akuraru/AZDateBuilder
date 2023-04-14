@@ -9,7 +9,7 @@
 
 #define HC_SHORTHAND 1
 
-#import <OCHamcrest/OCHamcrest.h>
+@import OCHamcrest;
 #import "NSDate+AZDateBuilder.h"
 
 
